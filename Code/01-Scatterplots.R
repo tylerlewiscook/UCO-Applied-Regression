@@ -21,6 +21,7 @@ plot(salary$ysdeg, salary$salary,
      ylab = "Salary (dollars per year)", 
      col = c("cyan", "darkred", "goldenrod")[salary$rank],
      pch = c(1, 3, 5)[salary$rank])
+legend("topleft", legend = c("Ast.", "Assoc.", "Prof."), pch = c(1, 3, 5), col = c("cyan", "darkred", "goldenrod"))
 
 plot(log(forbes$pres), forbes$bp)
 
